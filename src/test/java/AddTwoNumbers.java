@@ -1,9 +1,12 @@
 import java.util.Scanner;
 
+import org.testng.annotations.Test;
+
 public class AddTwoNumbers {
-	
-			public static void main(String... args) {
-			int num1, num2, sum;
+
+	@Test
+	public static void main(String... args) {
+		int num1, num2, sum;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("********************");
 		System.out.println("Enter first number");
@@ -15,9 +18,9 @@ public class AddTwoNumbers {
 
 		sum = num1+num2;
 		System.out.println("The sum of two numbers is:"+sum);
-			}
+	}
 
-	
+
 
 
 

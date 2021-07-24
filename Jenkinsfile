@@ -9,7 +9,7 @@ pipeline {
         }
          stage('Build Test') { 
             steps { 
-                    mvn 'clean test' 
+                    echo 'clean install test'
             }
         }
         stage('Package') { 
